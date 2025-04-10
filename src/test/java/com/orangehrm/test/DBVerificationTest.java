@@ -19,6 +19,7 @@ public class DBVerificationTest extends BaseClass {
 	private LoginPage loginPage;
 	private HomePage homePage;
 	
+	//Test Checkin
 	@BeforeMethod
 	public void setupPages() {
 		loginPage = new LoginPage(getDriver());
