@@ -9,6 +9,7 @@ public class DummyClass2 extends BaseClass {
 
 	@Test
 	public void dummyTest2() {
+		//Pipeline auto run checks
 		//ExtentManager.startTest("DummyTest2 Test"); --This has been implemented in TestListener
 		String title = getDriver().getTitle();
 		ExtentManager.logStep("verifying the title");
